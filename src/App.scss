@@ -1,0 +1,36 @@
+$primary: rgb(7, 7, 7);
+$secondary: rgb(20, 20, 20);
+$white: white;
+
+.main.home {
+  background: $primary;
+  color: $white;
+  width: 100vw;
+  height: 100vh;
+
+  section {
+    padding: 50px 25px;   
+  }
+
+  h1 {
+    margin-bottom: 25px;
+    font-size: 48px;
+  }
+
+  h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+  }
+
+  header.hero {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  section.intro {
+    background: $secondary;
+  }
+}

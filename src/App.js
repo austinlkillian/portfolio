@@ -1,25 +1,39 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.scss';
+import React from "react";
+import "./App.scss";
+import "./reset.scss";
+import CssBaseline from "@material-ui/core/CssBaseline";
+import Grid from "@material-ui/core/Grid";
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <CssBaseline />
+
+      <div className="main home">
+        <header className="hero">
+          <div>
+            <h1>MY NAME IS AUSTIN KILLIAN</h1>
+
+            <h2>hear me roar</h2>
+          </div>
+        </header>
+
+        <section className="intro">
+          <h2>
+            I believe in creativity and applying it to everything that you do.
+          </h2>
+
+          <Grid container>
+            <Grid item xs={12}>
+              <div className="item">
+                <h4>MAKE YOUR MARK</h4>
+              </div>
+            </Grid>
+          </Grid>
+        </section>
+      </div>
+    </React.Fragment>
   );
 }
 
