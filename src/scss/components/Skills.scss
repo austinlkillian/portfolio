@@ -1,0 +1,12 @@
+@import "./../universal.scss";
+
+section.skills {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  img {
+    max-width: 200px;
+  }
+}

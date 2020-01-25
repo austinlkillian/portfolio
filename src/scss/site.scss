@@ -1,0 +1,12 @@
+$primary: rgb(0, 0, 0);
+$secondary: rgb(20, 20, 20);
+$white: white;
+
+#root {
+  background: $primary;
+  color: $white;
+}
+
+.textcenter {
+  text-align: center;
+}

@@ -1,5 +1,4 @@
-import React, { Component } from "react";
-import "./App.scss";
+import React from "react";
 import {HashRouter} from 'react-router-dom'
 
 import routes from './routes'

@@ -1,3 +1,5 @@
+@import "./universal.scss";
+
 .main.home {
   section {
     padding: 50px 25px;
@@ -13,19 +15,19 @@
       font-weight: 300;
     }
   }
+  
+  section.intro {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
-  section.statement {
-    text-align: center;
-    
     h1 {
       margin: 0;
     }
-  }
-
-  section.intro {
-    margin-top: 100px;
 
     .inner-container {
+      margin-top: 150px;
       background: $secondary;
       padding: 100px 50px 50px 50px;
       position: relative;
@@ -39,7 +41,7 @@
         .profile-img {
           width: 200px;
           height: 200px;
-          background-image: url('./img/austin-prof-picture.JPG');
+          background-image: url('./../img/austin-prof-picture.JPG');
           background-position: center;
           background-size: cover;
           display: block;

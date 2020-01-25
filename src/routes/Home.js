@@ -1,14 +1,18 @@
 import React, { Component } from "react";
-import "./../reset.scss";
-import "./../type.scss";
+import "./../scss/Home.scss";
+
+import Skills from "./../components/Skills"
+
+/// MATERIAL UI IMPORTS ///
 import CssBaseline from "@material-ui/core/CssBaseline";
 import Grid from "@material-ui/core/Grid";
 import Container from "@material-ui/core/Container";
-import Box from "@material-ui/core/Box";
-import { shadows } from "@material-ui/system";
 import Fade from "react-reveal/Fade";
 
+
+
 class Home extends Component {
+
   render() {
     return (
       <React.Fragment>
@@ -31,16 +35,12 @@ class Home extends Component {
             </Container>
           </header>
 
-          <section className="statement">
-            <Container>
-              <Fade up>
-                <h1>LEAVE YOUR MARK</h1>
-              </Fade>
-            </Container>
-          </section>
-
           <section className="intro">
             <Container maxWidth="md">
+              <Fade up>
+                <h1 className="textcenter">LEAVE YOUR MARK</h1>
+              </Fade>
+
               <Fade bottom>
                 <div className="inner-container">
                   <Grid container spacing={3}>
@@ -65,9 +65,7 @@ class Home extends Component {
             </Container>
           </section>
 
-          <section className="skills">
-            <Container></Container>
-          </section>
+          <Skills />
         </div>
       </React.Fragment>
     );
