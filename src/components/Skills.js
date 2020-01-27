@@ -34,47 +34,47 @@ class Skills extends Component {
 
           <Fade up>
             <Grid container justify="center" alignItems="center" spacing={2}>
-              <Grid item xs={3}>
+              <Grid item xs={12} sm={6} md={3}>
                 <img src={axiosImg} alt="axios" />
               </Grid>
 
-              <Grid item xs={3}>
+              <Grid item xs={12} sm={6} md={3}>
                 <img src={cssImg} alt="css" />
               </Grid>
 
-              <Grid item xs={3}>
+              <Grid item xs={12} sm={6} md={3}>
                 <img src={htmlImg} alt="html" />
               </Grid>
 
-              <Grid item xs={3}>
+              <Grid item xs={12} sm={6} md={3}>
                 <img src={javascriptImg} alt="javascript" />
               </Grid>
 
-              <Grid item xs={3}>
+              <Grid item xs={12} sm={6} md={3}>
                 <img src={jqueryImg} alt="jquery" />
               </Grid>
 
-              <Grid item xs={3}>
+              <Grid item xs={12} sm={6} md={3}>
                 <img src={laravelImg} alt="laravel" />
               </Grid>
 
-              <Grid item xs={3}>
+              <Grid item xs={12} sm={6} md={3}>
                 <img src={phpImg} alt="php" />
               </Grid>
 
-              <Grid item xs={3}>
+              <Grid item xs={12} sm={6} md={3}>
                 <img src={reactImg} alt="react" />
               </Grid>
 
-              <Grid item xs={3}>
+              <Grid item xs={12} sm={6} md={3}>
                 <img src={sassImg} alt="sass" />
               </Grid>
 
-              <Grid item xs={3}>
+              <Grid item xs={12} sm={6} md={3}>
                 <img src={uikitImg} alt="uikit" />
               </Grid>
 
-              <Grid item xs={3}>
+              <Grid item xs={12} sm={6} md={3}>
                 <img src={vueImg} alt="vue" />
               </Grid>
             </Grid>
