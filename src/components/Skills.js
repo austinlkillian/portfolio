@@ -2,17 +2,17 @@ import React, { Component } from "react";
 import "./../scss/components/Skills.scss";
 
 /// IMAGES ///
-import axiosImg from "./../img/skills/axios.png";
-import cssImg from "./../img/skills/css.png";
-import htmlImg from "./../img/skills/html.png";
-import javascriptImg from "./../img/skills/javascript.png";
-import jqueryImg from "./../img/skills/jquery.png";
-import laravelImg from "./../img/skills/laravel.png";
-import phpImg from "./../img/skills/php.png";
-import reactImg from "./../img/skills/react.png";
-import sassImg from "./../img/skills/sass.png";
-import uikitImg from "./../img/skills/uikit.png";
-import vueImg from "./../img/skills/vue.png";
+import axiosImg from "./../skills/axios.png";
+import cssImg from "./../skills/css.png";
+import htmlImg from "./../skills/html.png";
+import javascriptImg from "./../skills/javascript.png";
+import jqueryImg from "./../skills/jquery.png";
+import laravelImg from "./../skills/laravel.png";
+import phpImg from "./../skills/php.png";
+import reactImg from "./../skills/react.png";
+import sassImg from "./../skills/sass.png";
+import uikitImg from "./../skills/uikit.png";
+import vueImg from "./../skills/vue.png";
 
 /// MATERIAL UI IMPORTS ///
 import Grid from "@material-ui/core/Grid";

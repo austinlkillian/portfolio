@@ -1,6 +1,7 @@
 $primary: rgb(0, 0, 0);
 $secondary: rgb(20, 20, 20);
 $white: white;
+$button-hover: rgba(255, 255, 255, 0.253);
 
 #root {
   background: $primary;
@@ -9,4 +10,35 @@ $white: white;
 
 .textcenter {
   text-align: center;
+}
+
+.button {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $primary;
+  background: $white;
+  padding: 12px 25px;
+  border-radius: 3px;
+  font-weight: 700;
+  transition: 250ms;
+  display: inline-block;
+
+  &:hover {
+    background: $primary;
+    color: $button-hover;
+    padding: 12px 50px 12px 0;
+  }
+}
+
+.carousel.carousel-slider {
+  overflow: visible !important;
+
+  .control-dots {
+    bottom: -50px !important;
+  
+    .dot {
+      width: 12px !important;
+      height: 12px !important;
+    }
+  }
 }

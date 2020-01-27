@@ -6,7 +6,7 @@
   }
 
   header.hero {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -41,7 +41,7 @@
         .profile-img {
           width: 200px;
           height: 200px;
-          background-image: url('./../img/austin-prof-picture.JPG');
+          background-image: url('./../austin-prof-picture.JPG');
           background-position: center;
           background-size: cover;
           display: block;
@@ -52,6 +52,42 @@
 
       @media (max-width: 600px) {
         padding: 100px 15px 50px 20px;
+      }
+    }
+  }
+
+  section.contact {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h1 {
+      margin: 0;
+    }
+
+    .inner-container {
+      margin-top: 100px;
+      background: $secondary;
+      padding: 50px;
+      text-align: center;
+
+      .contact-info, .social-links {
+        margin-top: 50px;
+      }
+
+      .social-links {
+        display: flex;
+        justify-content: center;
+
+        img {
+          width: 50px;
+          margin: 0 7px
+        }
+      }
+
+      @media (max-width: 600px) {
+        padding: 50px 15px;
       }
     }
   }

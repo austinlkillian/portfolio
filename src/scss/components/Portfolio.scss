@@ -1,0 +1,24 @@
+@import "./../universal.scss";
+
+section.portfolio {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h1.portfolio-title {
+    margin-bottom: 100px;
+  }
+
+  .project {
+    margin-top: 150px;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    .project-info {
+      margin-top: 100px;
+    }
+  }
+}

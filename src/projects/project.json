@@ -1,0 +1,31 @@
+{
+  "weberstate": {
+    "title": "Weberstate",
+    "slides": [
+      "./weber/home.png",
+      "./weber/blog-archive.png",
+      "./weber/locations.png",
+      "./weber/rates-tabs.png",
+      "./weber/mortgage-calculator.png",
+      "./weber/mobile-mortgage-calculator.png",
+      "./weber/mobile-mortgage-results.png",
+      "./weber/mortgage-quote-details.png"
+    ],
+    "link": "http://weberstate.fluidstaging.com/",
+    "description": "A website currently in development to update the current WSCU site by modernizing and making it more user friendly",
+    "technologies": "Foundation | Vue.js | Sass | Blade | Javascript | Jquery | Wordpress | PHP"
+  },
+  
+  "iceslicer": {
+    "title": "Ice Slicer",
+    "slides": [
+      "./iceslicer/home-hero.png",
+      "./iceslicer/about-graph.png",
+      "./iceslicer/about.png",
+      "./iceslicer/product-cost-calculator.png"
+    ],
+    "link": "https://www.iceslicer.com/",
+    "description": "A user and client friendly website developed in a component based structure for easy client customization and user navigation",
+    "technologies": "UIKit | Vue.js | Sass | Blade | Javascript | Jquery | Wordpress | PHP"
+  }
+}
