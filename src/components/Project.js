@@ -28,6 +28,10 @@ class Project extends Component {
             showThumbs={false} 
             showStatus={false} 
             infiniteLoop={true}
+            autoPlay={true}
+            interval={7000}
+            stopOnHover={true}
+            emulateTouch={true}
           >
             {slides}
           </Carousel>
@@ -37,9 +41,17 @@ class Project extends Component {
           <div className="project-info">
             
             <Grid container spacing={2}>
-              <Grid item xs={12}>
-                <a className="button" href={data.link} target="_blank">{ data.title }</a>
-              </Grid>
+              {data.link &&
+                <Grid item xs={12}>
+                  <a className="button" href={data.link} target="_blank">Link</a>
+                </Grid>
+              }
+
+              {data.github &&
+                <Grid item xs={12}>
+                  <a className="button" href={data.github} target="_blank">GitHub</a>
+                </Grid>
+              }
 
               <Grid item xs={8}>
                 <p>{ data.description }</p>

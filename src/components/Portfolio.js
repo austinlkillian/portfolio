@@ -23,6 +23,14 @@ class Portfolio extends Component {
           <Project
             data={projectData.iceslicer}
           />
+
+          <Project
+            data={projectData.arnoldmachinery}
+          />
+
+          <Project
+            data={projectData.racetothemoon}
+          />
         </Container>
       </section>
     )

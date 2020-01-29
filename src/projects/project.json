@@ -12,7 +12,8 @@
       "./weber/mortgage-quote-details.png"
     ],
     "link": "http://weberstate.fluidstaging.com/",
-    "description": "A website currently in development to update the current WSCU site by modernizing and making it more user friendly",
+    "github": false,
+    "description": "A website currently in development to update the current WSCU site by modernizing and making it more user friendly. Users are able to view rate information by navigating an advanced tab/wordpress table system using Foundation. Built Mortgage Calculator where user can fill out loan parameters that directly receive mortgage rates from Mortech API Site is mobile ready and tested across multiple browsers for an identical user experience for everyone.",
     "technologies": "Foundation | Vue.js | Sass | Blade | Javascript | Jquery | Wordpress | PHP"
   },
   
@@ -25,7 +26,40 @@
       "./iceslicer/product-cost-calculator.png"
     ],
     "link": "https://www.iceslicer.com/",
-    "description": "A user and client friendly website developed in a component based structure for easy client customization and user navigation",
+    "github": false,
+    "description": "A user and client friendly website developed in a component based structure for easy client customization and user navigation. Ice Slicer is a branch off of Redmond Minerals for providing solutions for harsh winter weather road conditions. Contains a cost comparison calculation table to compare Ice Slicer road salts with other brands. Added animations using UIKit with each informational component to breath life throughout the site.",
     "technologies": "UIKit | Vue.js | Sass | Blade | Javascript | Jquery | Wordpress | PHP"
+  },
+
+  "arnoldmachinery": {
+    "title": "Arnold Machinery Material Handling",
+    "slides": [
+      "./arnold/home.png",
+      "./arnold/locations.png",
+      "./arnold/new-equipment.png",
+      "./arnold/specials.png",
+      "./arnold/update-preferred-location.png",
+      "./arnold/warehouse-solutions.png"
+    ],
+    "link": "https://arnoldmachinerymh.fluidstaging.com/",
+    "github": false,
+    "description": "A new site to showcase all of the Material Handling division products for Arnold Machinery. This site features a locations svg map using geo location coordinates and jquery to find the nearest location to your search and animate it for the simple and straightfoward UI/UX. It also features an equipment filterable post type while integrating the hyster/yale api to quickly find all availble products by Arnold Machinery.",
+    "technologies": "Foundation | Vue.js | Sass | Blade | Javascript | Jquery | Wordpress | PHP"
+  },
+
+  "racetothemoon": {
+    "title": "Race To The Moon",
+    "slides": [
+      "./rttm/home.png",
+      "./rttm/login.png",
+      "./rttm/menu.png",
+      "./rttm/game.png",
+      "./rttm/finish-screen.png",
+      "./rttm/scoreboard.png"
+    ],
+    "link": false,
+    "github": "https://github.com/race-to-the-moon/race-to-the-moon",
+    "description": "A web developed game where one rocket must beat the clock, blast incoming asteroids, and win this great Race to the Moon! Developed for our final group project at DevMountain using Phaser 3 to achieve the games physics and Redux to execute in flight features such as boost, invincibility, and score summation. Complete with user login using Auth 0 to keep track of your high scores.",
+    "technologies": "React | Javascript | Node.js | Redux | Phaser 3 | Massive | PostgreSQL | Express"
   }
 }

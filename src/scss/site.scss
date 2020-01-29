@@ -33,6 +33,10 @@ $button-hover: rgba(255, 255, 255, 0.253);
 .carousel.carousel-slider {
   overflow: visible !important;
 
+  .control-arrow {
+    background: rgba(0, 0, 0, 0.356) !important;
+  }
+
   .control-dots {
     bottom: -50px !important;
   
