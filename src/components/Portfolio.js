@@ -29,6 +29,14 @@ class Portfolio extends Component {
           />
 
           <Project
+            data={projectData.scf}
+          />
+
+          <Project
+            data={projectData.irh}
+          />
+
+          <Project
             data={projectData.racetothemoon}
           />
         </Container>

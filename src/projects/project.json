@@ -47,6 +47,37 @@
     "technologies": "Foundation | Vue.js | Sass | Blade | Javascript | Jquery | Wordpress | PHP"
   },
 
+  "scf": {
+    "title": "Sabin Children's Foundation",
+    "slides": [
+      "./scf/home.png",
+      "./scf/mission.png",
+      "./scf/team.png",
+      "./scf/partner-page.png",
+      "./scf/current-projects.png",
+      "./scf/project-archive.png",
+      "./scf/donation-form.png"
+    ],
+    "link": "https://sabinchildrensfoundation.org/",
+    "github": false,
+    "description": "Sabin Holdings philanthropy site, Sabin childrens Foundation, to showcase all the ways they help make a positive impact on the world. Incorporated Stripe to make direct donations to their partner charity organizations to provide services to hardshipped areas around the world. Used foundation to smoothly create mobile responsive pages so the experience is intuitive and user friendly on any device.",
+    "technologies": "Foundation | Vue.js | Sass | Blade | Javascript | Jquery | Wordpress | PHP | Stripe"
+  },
+
+  "irh": {
+    "title": "Intermountain Rigging & Heavyhaul",
+    "slides": [
+      "./irh/home.png",
+      "./irh/contact-form.png",
+      "./irh/about.png",
+      "./irh/services.png"
+    ],
+    "link": "http://irhusa.com/",
+    "github": false,
+    "description": "A simple site built for Intermountain Rigging and Heavyhaul based on a flex template for the client to pick and choose custom built components for any page they create. There are slight variations between components that the client can switch between at any time to updated the look and feel of their site.",
+    "technologies": "UIKit | Vue.js | Sass | Blade | Javascript | Jquery | Wordpress | PHP"
+  },
+
   "racetothemoon": {
     "title": "Race To The Moon",
     "slides": [
