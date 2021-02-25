@@ -1,6 +1,6 @@
 {
-  "weberstate": {
-    "title": "Weberstate",
+  "ascent": {
+    "title": "Ascent Credit Union",
     "slides": [
       "./weber/home.png",
       "./weber/blog-archive.png",
@@ -8,12 +8,11 @@
       "./weber/rates-tabs.png",
       "./weber/mortgage-calculator.png",
       "./weber/mobile-mortgage-calculator.png",
-      "./weber/mobile-mortgage-results.png",
       "./weber/mortgage-quote-details.png"
     ],
-    "link": "http://weberstate.fluidstaging.com/",
+    "link": "http://ascentcu.com/",
     "github": false,
-    "description": "A website currently in development to update the current WSCU site by modernizing and making it more user friendly. Users are able to view rate information by navigating an advanced tab/wordpress table system using Foundation. Built Mortgage Calculator where user can fill out loan parameters that directly receive mortgage rates from Mortech API Site is mobile ready and tested across multiple browsers for an identical user experience for everyone.",
+    "description": "A website previously developed to update the WSCU site, but now known as Ascent Credit Union, by modernizing and making it more user friendly. Users are able to view rate information by navigating an advanced tab/wordpress table system using Foundation. Built Mortgage Calculator where user can fill out loan parameters that directly receive mortgage rates from Mortech API Site is mobile ready and tested across multiple browsers for an identical user experience for everyone.",
     "technologies": "Foundation | Vue.js | Sass | Blade | Javascript | Jquery | Wordpress | PHP"
   },
   
