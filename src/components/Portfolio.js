@@ -17,7 +17,7 @@ class Portfolio extends Component {
           </Fade>
 
           <Project
-            data={projectData.weberstate}
+            data={projectData.ascent}
           />
 
           <Project
