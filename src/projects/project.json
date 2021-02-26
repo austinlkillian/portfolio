@@ -40,7 +40,7 @@
       "./arnold/update-preferred-location.png",
       "./arnold/warehouse-solutions.png"
     ],
-    "link": "https://arnoldmachinerymh.fluidstaging.com/",
+    "link": "https://arnoldmachinerymh.com/",
     "github": false,
     "description": "A new site to showcase all of the Material Handling division products for Arnold Machinery. This site features a locations svg map using geo location coordinates and jquery to find the nearest location to your search and animate it for the simple and straightfoward UI/UX. It also features an equipment filterable post type while integrating the hyster/yale api to quickly find all availble products by Arnold Machinery.",
     "technologies": "Foundation | Vue.js | Sass | Blade | Javascript | Jquery | Wordpress | PHP"
